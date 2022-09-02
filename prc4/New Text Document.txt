@@ -1,0 +1,15 @@
+public class Shape{
+  	public static void main(String[] args)
+	{
+	   }
+}
+
+
+//we can't instantiate the abstract 
+//means we can't create obj of the abstract class
+abstract class Shapetype{
+ 	public void circle()
+	{
+	  System.out.println("Testing...");
+	}
+}

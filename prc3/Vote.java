@@ -1,0 +1,1 @@
+//WAP to ask user to enter his age and display whether he is eligible for casting a vote or not. If his age is <18 he is not eligible.
