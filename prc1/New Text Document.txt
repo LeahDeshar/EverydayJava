@@ -1,0 +1,12 @@
+public class Print{
+ 
+ void printI()
+{
+int a=10;
+System.out.println("Local variabl is " + a );
+}
+public static void main(String[] args)
+{
+printI();
+}
+}

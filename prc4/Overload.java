@@ -3,31 +3,19 @@
 import java.util.Scanner;
 public class Overload
 {
-	public int mul(int x,int y)
+	public double mul(int x,double y)
 	{
 	 return (x*y);
 	}
-	public int mul(int x,int z,int y)
+	public double mul(double x,int y)
 	{
-	 return (x*y*z);
-	}
-	public double mul(double m,double n)
-	{
-	 return (m*n);
+	 return (x*y);
 	}
 	public static void main(String args[]) 
     	{ 
-       		 Overload obj = new Overload(); 
-		int a,b,c;
-			Scanner sc = new Scanner(System.in);
-			System.out.println("Enter the value of a and b and c: ");
-			a=sc.nextInt();
-			b=sc.nextInt();
-			c=sc.nextInt();
-		System.out.println(""); 
-		System.out.println("The result is: "); 
-       		 System.out.println(obj.mul(a, b)); 
-       		 System.out.println(obj.mul(a, b, c)); 
-		System.out.println(obj.mul(10.5,15.5)); 
+       		
+			Overload obj =new Overload();
+ 		System.out.println(obj.mul(10.00, 20)); 
+       		
     } 
 }
