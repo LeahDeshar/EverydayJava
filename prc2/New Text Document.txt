@@ -1,0 +1,25 @@
+
+
+ class Outer{
+   void display()
+   {
+     class Inner{
+      void print()
+	{
+	 System.out.println("Happy learning");
+	}
+	}
+	Inner obj =new Inner();
+       obj.print();
+      }
+}
+public class MainII
+{
+ public static void main(String[] args)
+	{
+	  Outer obj1=new Outer();
+  obj1.display();
+}
+}
+ 
+     
